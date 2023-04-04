@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+  <a class="navbar-brand text-light">Sign up Form</a>
+  <button class="navbar-toggler" type="button" (click)="navbar()" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent" [ngClass]="{'show':navOpen}">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-light btn" routerLink="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light btn" routerLink="/reactive-form">Add</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light btn" routerLink="/delete-form">Delete</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light btn" routerLink="/update-form">Update</a>
+      </li>
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,21 @@
+<form [formGroup]="deleteData" (ngSubmit)="delete()">
+    <div class="container" >
+      <div class="row">
+        <div class="col-12 col-md-6 offset-md-3">
+          <div class="card mt-5">
+            <h4 class="card-header text-center">Delete Your Record</h4>
+            <div class="card-body bg-light p-4">
+              <div class="form-group">
+                <label for="Id" class="form-label">Enter ID to delete record</label>
+                <input type="text" placeholder="Enter Id" class="form-control" formControlName="id" pattern="[0-9]+">
+              </div>
+              <div class="d-grid gap-2 mt-4">
+                <button type="submit" class="btn btn-danger btn-lg"><b>Delete</b></button>   
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  
