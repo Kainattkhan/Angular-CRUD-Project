@@ -14,6 +14,8 @@ Run `ng generate component component-name` to generate a new component.
 
 Project contains four components
 
+=======
+
 - `navbar` contains the buttons which will navigate you to respective forms (default is set to home)
 - `reactive-from` to add a user
 - `update-form` to update any field in record based on id of the record
@@ -21,6 +23,11 @@ Project contains four components
 
 ## Angular topics covered through the project
 
+- Data Binding
+- Forms
+- Services
+- Routing
+- # responsiveness with bootstrap
 - Data Binding
 - Forms
 - Services
